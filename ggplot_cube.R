@@ -5,6 +5,7 @@ library(dplyr)
 
 obj <- threed::mesh3dobj$cube
 
+
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Define camera 'lookat' matrix i.e. camera-to-world transform
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -79,7 +80,7 @@ ggplot(obj, aes(x, y, group = zorder)) +
   theme(legend.position = 'none') +
   coord_equal()
 
-# plot a cow, a teapot, a sphere ... 
+# plot a cow, a teapot, a sphere, a icosahedron ... 
 
 
 # more here https://github.com/coolbutuseless/threed
