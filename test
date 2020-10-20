@@ -11,3 +11,5 @@ y <- runif(100)
 plot(y)
 
 # something 2020
+
+plot(y, col="blue", pch=19)
