@@ -12,4 +12,7 @@ plot(y)
 
 # something 2020
 
-plot(y, col="blue", pch=19)
+x <- runif(100)
+plot(x, col="blue", pch=19)
+
+
